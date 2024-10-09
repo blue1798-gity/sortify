@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "//sortify/static/css/main.737518b5.css",
-    "main.js": "//sortify/static/js/main.5d06ba11.js",
-    "static/js/453.51fadcb6.chunk.js": "//sortify/static/js/453.51fadcb6.chunk.js",
-    "index.html": "//sortify/index.html",
-    "main.737518b5.css.map": "//sortify/static/css/main.737518b5.css.map",
-    "main.5d06ba11.js.map": "//sortify/static/js/main.5d06ba11.js.map",
-    "453.51fadcb6.chunk.js.map": "//sortify/static/js/453.51fadcb6.chunk.js.map"
+    "main.css": "/sortify/static/css/main.737518b5.css",
+    "main.js": "/sortify/static/js/main.42a4936b.js",
+    "static/js/453.51fadcb6.chunk.js": "/sortify/static/js/453.51fadcb6.chunk.js",
+    "index.html": "/sortify/index.html",
+    "main.737518b5.css.map": "/sortify/static/css/main.737518b5.css.map",
+    "main.42a4936b.js.map": "/sortify/static/js/main.42a4936b.js.map",
+    "453.51fadcb6.chunk.js.map": "/sortify/static/js/453.51fadcb6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.737518b5.css",
-    "static/js/main.5d06ba11.js"
+    "static/js/main.42a4936b.js"
   ]
 }
