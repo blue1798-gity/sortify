@@ -1,0 +1,132 @@
+.arr-container2 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    top: 75px;
+    height: 70vh;
+}
+
+.array-bar {
+    width: 3px;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.ani-speed {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.button-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #474B4F;
+    padding: 20px;
+    height: 100px;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around; /* Even spacing */
+    flex-wrap: wrap; /* Buttons will wrap on smaller screens */
+    width: 100%; /* Full width of the container */
+    max-width: 650px; /* Max width for desktop */
+    margin: 0 auto; /* Center the buttons */
+}
+
+.button-container .txt {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.btn {
+    margin: 4px;
+    padding: 10px 20px;
+    height: 40px;
+    background-color: #b4b9c8; /* Button background */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ADBBDA; /* Hover effect */
+}
+
+.speed-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px; /* Adjust the speed control width */
+    margin: 0 auto;
+}
+
+.speed-slider {
+    width: 150px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.speed-slider::-webkit-slider-runnable-track {
+    background-color: white;
+    border-radius: 2px;
+}
+
+/* Media Queries for smaller screens */
+@media (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  
+
+    .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+        padding: 20px;
+    }
+
+    .buttons {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .button-container .txt {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    .btn {
+        width: 100%; /* Make buttons full width on smaller screens */
+        text-align: center;
+    }
+
+    .speed-control {
+        width: 100%;
+        margin: 20px auto;
+    }
+}
