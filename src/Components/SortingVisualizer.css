@@ -41,11 +41,11 @@
 
 .buttons {
     display: flex;
-    justify-content: space-around; /* Even spacing */
-    flex-wrap: wrap; /* Buttons will wrap on smaller screens */
-    width: 100%; /* Full width of the container */
-    max-width: 650px; /* Max width for desktop */
-    margin: 0 auto; /* Center the buttons */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
 }
 
 .button-container .txt {
@@ -60,7 +60,7 @@
     margin: 4px;
     padding: 10px 20px;
     height: 40px;
-    background-color: #b4b9c8; /* Button background */
+    background-color: #b4b9c8;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     border: none;
@@ -73,7 +73,7 @@
 }
 
 button:hover {
-    background-color: #ADBBDA; /* Hover effect */
+    background-color: #ADBBDA;
 }
 
 .speed-control {
@@ -83,7 +83,7 @@ button:hover {
     margin-top: 20px;
     font-size: 16px;
     width: 100%;
-    max-width: 400px; /* Adjust the speed control width */
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -106,7 +106,7 @@ button:hover {
   
 
     .button-container {
-        flex-direction: column; /* Stack buttons vertically */
+        flex-direction: column;
         padding: 20px;
     }
 
@@ -121,7 +121,7 @@ button:hover {
     }
 
     .btn {
-        width: 100%; /* Make buttons full width on smaller screens */
+        width: 100%;
         text-align: center;
     }
 
